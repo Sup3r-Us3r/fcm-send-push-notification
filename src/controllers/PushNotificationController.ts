@@ -75,7 +75,6 @@ export default new class PushNotificationController {
       const response = await new FirebaseClient()
         .sendNotification(
           { title, body, imageUrl },
-          // {​ sendToSpecificDeviceToken: process.env.FIREBASE_DEVICE_TOKEN }​,
           { sendToTopic, sendToSpecificDeviceToken },
         );
 
