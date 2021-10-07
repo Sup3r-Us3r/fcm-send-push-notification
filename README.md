@@ -38,7 +38,7 @@ Access by [`localhost:3333`](http://localhost:3333)
 ```typescript
 {
   "registrationTokens": ["token_device_1", "token_device_2"],
-  "topic": "topic_example",
+  "topic": "topic_example"
 }
 ```
 
@@ -53,9 +53,8 @@ Access by [`localhost:3333`](http://localhost:3333)
 ```typescript
 {
   "registrationTokens": ["token_device_1", "token_device_2"],
-  "topic": "topic_example",
+  "topic": "topic_example"
 }
 ```
 
 > **registrationTokens** accept string with device token or array from device token
-
